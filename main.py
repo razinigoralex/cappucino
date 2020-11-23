@@ -185,6 +185,6 @@ class ChangeForm(QMainWindow):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    espresso = CoffeeTable()
-    espresso.show()
+    coffee_table = CoffeeTable()
+    coffee_table.show()
     sys.exit(app.exec())
